@@ -228,6 +228,11 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 PRODUCT_ODM_PROPERTIES += \
     ro.vendor.qti.va_odm.support=1
+    
+# Remote provisioning
+PRODUCT_PRODUCT_PROPERTIES += \
+    remote_provisioning.enable_rkpd=true \
+    remote_provisioning.hostname=remoteprovisioning.googleapis.com \
 
 # RFS APQ GNSS symlinks
 PRODUCT_PACKAGES += \
