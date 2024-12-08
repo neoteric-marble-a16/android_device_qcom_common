@@ -45,7 +45,7 @@ ________________________________________________________________________________
                 <Prop Name="vendor.iop.enable_speed" Value="true" />
                 <Prop Name="vendor.perf.test_avc" Value="false" />
                 <Prop Name="vendor.perf.fps_switch_hyst_time_secs" Value="10" />
-                <Prop Name="ro.vendor.perf.enable.prekill"        Value="true"     />
+                <Prop Name="ro.vendor.perf.enable.prekill"        Value="false"     />
                 <!-- AOSPA Edit: Disable memperfd
                 <Prop Name="vendor.debug.enable.memperfd"         Value="true"     />
                 <Prop Name="vendor.enable.memperfd_MIN_RAM_in_KB" Value="1048576"  />
