@@ -96,6 +96,7 @@ ________________________________________________________________________________
                 <Prop Name="vendor.perf.topAppRenderThreadBoost.enable" Value="true" Target="taro,cape,ukee" />
 
                 <Prop Name="ro.lmk.enable_userspace_lmk" Value="true" />
+                <Prop Name="ro.lmk.cache_percent" Value="10" Target="taro,cape,ukee" />
                 <Prop Name="vendor.perf.phr.enable" Value="1"/>
                 <Prop Name="vendor.perf.phr.hr_min_rate" Value="0.5"/>
                 <Prop Name="vendor.perf.pfar2.enable" Value="1"/>
